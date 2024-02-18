@@ -21,7 +21,7 @@ namespace basic_rsa
                 pemBuilder.AppendLine("-----BEGIN PUBLIC KEY-----");
                 pemBuilder.AppendLine("Modulus: " + base64Modulus);
                 pemBuilder.AppendLine("Exponent: " + base64Exponent);
-                pemBuilder.AppendLine("-----END "  + "-----");
+                pemBuilder.AppendLine("-----END PRIVATE KEY-----");
 
             }
             else
